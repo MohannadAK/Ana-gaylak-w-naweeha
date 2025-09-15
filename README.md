@@ -131,7 +131,7 @@ IEEEMDB is a movie discovery and social platform that enables users to discover 
 #### Relationship Tables
 
 - movie_genres (movie_id, genre_id)
-- movie_cast (movie_id, person_id, role, character_name)
+- movie_cast (movie_id, person_id)
 - movie_crew (movie_id, person_id, job_title)
 - list_movies (list_id, movie_id, added_at)
 - user_follows (follower_id, following_id, created_at)
